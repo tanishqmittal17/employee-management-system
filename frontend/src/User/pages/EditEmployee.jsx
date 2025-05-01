@@ -61,7 +61,7 @@ const EditEmployee = (data) => {
     }
 
     try {
-      await axios.patch(`https://employee-management-system-ujnj.onrender.com/api/users/editEmployee/${user._id}`, formData, {
+      await axios.patch(`https://localhost:5000/api/users/editEmployee/${user._id}`, formData, {
         headers: {
           Authorization: "Bearer " + auth.token,
         },
