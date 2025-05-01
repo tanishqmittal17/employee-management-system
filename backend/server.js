@@ -8,7 +8,7 @@ const superUserRoutes = require("./routes/super-user-routes");
 const connectDb = require("./database/db");
 const userRoutes = require("./routes/user-routes");
 const leaveRoutes = require("./routes/leaveRoutes");
-dotenv.config() //comment
+dotenv.config() 
 
 const port = process.env.PORT || 5000;
 
